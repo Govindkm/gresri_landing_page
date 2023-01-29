@@ -1,0 +1,31 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 4rem;
+    width: 100vw;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.topnav{
+    display: flex;
+}
+
+.right{
+    width: 100%;
+    align-items: stretch;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    padding: 1rem;
+    transition: var(--transition);
+}
+
+.nav-item:hover{
+    background-color: var(--color-primary-light);
+}

@@ -2,3 +2,31 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root {
+    /* define variables here */
+    --color-primary: rgb(225, 255, 177);
+    --color-primary-light: rgb(199, 242, 164);
+    --color-secondary: rgb(182, 227, 136);
+    --color-light: rgb(252, 255, 178);
+
+    --color-link-hover: rgb(172, 255, 38);
+    --color-link-active: rgb(209, 255, 134);
+
+    --transition: all 0.5s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-light)
+}
+
+a:hover{
+    color: var(--color-link-hover);
+}

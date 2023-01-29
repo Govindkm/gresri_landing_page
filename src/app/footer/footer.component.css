@@ -3,5 +3,6 @@ footer{
     list-style: none;
     background-color: aquamarine;
     position: relative;
-    top: 13rem;
+    bottom: 0rem;
+    padding-top: 1rem;
 }
